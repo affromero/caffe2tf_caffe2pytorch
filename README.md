@@ -8,7 +8,10 @@ This implementation is based on [ethereon's](https://github.com/ethereon/caffe-t
 ## Caffe to PyTorch
 This implementation only extract caffemodel parameters and save them in a npy standard format. 
 
-### Usage
+_____
+
+
+## Usage
 
 Run `run.py` to convert an existing Caffe model to TensorFlow/PyTorch.
 
@@ -25,6 +28,6 @@ The output in the `tf` mode consists of two files:
 
 Meanwhile, for the `pytorch` way only is the former file. 
 
-### NPY output
+## NPY output
 
 The npy output consits of a dictionary with the corresponding layers. Each layer is itself a dictionary with `weights` and `biases`.
