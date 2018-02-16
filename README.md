@@ -24,3 +24,7 @@ The output in the `tf` mode consists of two files:
 2. A Python class that constructs the model's graph.
 
 Meanwhile, for the `pytorch` way only is the former file. 
+
+## NPY output
+
+The npy output consits of a dictionary with the corresponding layers. Each layer is itself a dictionary with `weights` and `biases`.
