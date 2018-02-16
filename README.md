@@ -19,14 +19,13 @@ Run `run.py` to convert an existing Caffe model to TensorFlow/PyTorch.
 
 `./run.py --prototxt deploy.pt --caffemodel model.caffemodel --mode tf`
 
-Make sure you're using the latest Caffe format (see the notes section for more info).
 
 The output in the `tf` mode consists of two files:
 
 1. A data file (in NumPy's native format) containing the model's learned parameters.
 2. A Python class that constructs the model's graph.
 
-Meanwhile, for the `pytorch` way only is the former file. 
+Meanwhile, for the `pytorch` mode, only the former data file. 
 
 ## NPY output
 
